@@ -1,0 +1,50 @@
+const mainColors = {
+  colorPrimary: '#f46c5a',
+  colorPrimaryDark: '#f36562',
+  colorAccent: '#eb7b5c',
+  colorBlack: '#2f2f2f',
+  colorSoftGray: '#a8a8a8',
+  colorGray: '#777777',
+  colorBorder: '#e1e1e1',
+  colorTransparent: '#00000000',
+  colorError: '#af0f0f',
+  colorSuccess: '#64bd45',
+  colorWarning: '#feb93a',
+  colorInfo: '#37b7ef',
+  colorPink: '#ffe4e4',
+  colorTransparentBlack: '#484c4f0d',
+  bgVariant: '#efefef',
+};
+
+export const colors = {
+  primary: mainColors.colorPrimary,
+  primaryDark: mainColors.colorPrimaryDark,
+  accent: mainColors.colorAccent,
+  white: 'white',
+  black: 'black',
+  softGray: mainColors.colorSoftGray,
+  colorBorder: mainColors.colorBorder,
+  colorBlack: mainColors.colorBlack,
+  pink: mainColors.colorPink,
+  button: {
+    primary: {
+      background: mainColors.colorPrimary,
+      text: 'white',
+    },
+  },
+  text: {
+    menuActive: mainColors.colorPrimary,
+    menuInactive: mainColors.colorSoftGray,
+    default: mainColors.colorBlack,
+  },
+  gray: mainColors.colorGray,
+  error: mainColors.colorError,
+  success: mainColors.colorSuccess,
+  info: mainColors.colorInfo,
+  warning: mainColors.colorWarning,
+  transparent: mainColors.colorTransparent,
+  transparentBlack: mainColors.colorTransparentBlack,
+  background: {
+    variant: mainColors.bgVariant,
+  },
+};

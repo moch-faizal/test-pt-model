@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "name": "Semua",
+        "class": "active"
+    }, {
+        "id": 1,
+        "name": "Chair",
+        "class": "default"
+    }, {
+        "id": 2,
+        "name": "Cupboard",
+        "class": "default"
+    }, {
+        "id": 3,
+        "name": "Bed",
+        "class": "default"
+    }, {
+        "id": 4,
+        "name": "Lamp",
+        "class": "default"
+    }
+]
